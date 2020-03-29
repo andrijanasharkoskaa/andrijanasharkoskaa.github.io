@@ -1,0 +1,288 @@
+* {
+	box-sizing: border-box;
+}
+
+
+body{
+	background-color: #dab4fa;
+        overflow-x: hidden ! important;
+
+
+}
+.page-wrap{
+	
+	width: 500px;
+	text-align: center;
+}
+.card-wrap{
+	text-align: center;
+	background-attachment: fixed;
+}
+.circles{
+	
+	height: 100px;
+	width: 100px;
+	border-radius: 50%;
+	background-color: #5d2191;
+	
+}
+
+.circles2{
+	
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background-color: #8f09e3;
+	background-image: linear-gradient(90deg, #5e0991, white);
+	margin-left: 200px;
+	margin-top: 300px;
+	
+}
+
+.circles3{
+	
+	height: 400px;
+	width: 400px;
+	border-radius: 50%;
+	background-color: #8f09e3;
+	background-image: linear-gradient(#5e0991, #c79ef0);
+	margin-left: 1300px;
+	margin-top: -700px;
+	
+}
+
+.circles4{
+	
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: #8f09e3;
+	margin-left: 1270px;
+	margin-top: 200px;
+	
+}
+.circle-inside{
+	
+	height: 200px;
+	width: 300px;
+	border-radius: 10%;
+	background-color: white;
+	margin-top: 200px;
+	margin-left: -130px;
+	box-shadow: 10px 10px 5px #430766;
+	text-align: center;
+
+	
+}
+
+.card{
+	
+	background-color: white;
+	background-image: linear-gradient( 50deg, white, #d6b2eb, white, #d6b2eb, white);
+	height: 700px;
+	width: 500px;
+	margin-top: -540px;
+	margin-left: 300px;
+	box-shadow: 10px 10px 5px #430766;
+
+}
+
+.card1{
+	
+	background-color: white;
+	background-image: linear-gradient( -90deg, white, #d6b2eb);
+	height: 700px;
+	width: 500px;
+	margin-top: -650px;
+	margin-left: 780px;
+	box-shadow: 10px 10px 5px #430766;
+
+}
+
+.my-nav > a{
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: CASTELLAR;
+	color: #3b025c;
+	padding: 10px;
+	margin: 5px;
+	margin-left: 10px;
+	background-color: white;
+	border-radius: 10%;
+}
+a:hover{
+	background-color: #c89ae3;
+}
+
+.my-img{
+	width: 120px;
+	height: 120px;
+}
+h4{
+	font-size: 17px;
+	font-family: CASTELLAR;
+	text-align: center;
+	margin-top: -90px;
+	margin-left: -450px;
+	
+}
+
+
+.my-title {
+	margin-top: -360px;
+	margin-left: 180px;
+	font-size: 30px;
+	font-family: Chiller;
+	color: orange;
+}
+.my-about{
+	width: 300px;
+	height: 50px;
+	margin-top: -100px;
+	margin-left: 190px;
+	text-align: center;
+	font-size: 28px;
+	font-family: Chiller;
+	color: #3b025c;
+}
+
+.my-button{
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Calibri;
+	color: white;
+	padding: 10px;
+	margin: 5px;
+	margin-left: 10px;
+	background-color: white;
+	border-radius: 10%;
+	margin-top: 60px;
+	margin-left: 200px;
+	background-color: #8f09e3;
+	background-image: linear-gradient(orange, #edb872);
+}
+.my-button:hover{
+	background-color: orange;
+}
+.my-button2{
+	text-align: center;
+	text-decoration: none;
+	font-size: 20px;
+	font-family: Chiller;
+	color: #3b025c;
+	padding: 10px;
+	margin: 5px;
+	margin-left: 10px;
+	background-color: white;
+	border-radius: 10%;
+	margin-top: 60px;
+	margin-left: 10px;
+	border: 1px solid #8f09e3;
+}
+div.mycard {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+  height: 100px;
+  display: inline-block;
+  margin-top: 10px;
+  margin-left: px;
+}
+
+div.header {
+  background-color: #38105c;
+  color: white;
+  padding: 10px;
+  font-size: 10px;
+  height: 120px;
+  width: 150px;
+
+
+}
+
+div.container {
+  padding: 10px;
+  background-color: #38105c;
+  height: 15px;
+  width: 150px;
+}
+.my-dots{
+	font-size: 30px;
+	color: purple;
+}
+
+.column {
+  float: left;
+  width: 32%;
+  padding: 5px;
+  margin-top: -30px;
+  height: 200px;
+  
+  
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.my-img-row{
+	height: 120px;
+	box-shadow: 10px 10px 5px #430766;
+	margin: 5px;
+
+}
+h5  {
+	color: #2d054f;
+	font-family: CASTELLAR;
+	font-size: 20px;
+	margin-top: 160px;
+	text-decoration: none;
+	
+}
+a{
+	text-decoration: none;
+}
+
+h1{
+	color: purple;
+	font-size: 27px;
+	font-family: Chiller;
+}
+
+
+input[type=text], select, textarea {
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: purple;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container4 {
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 70px;
+  margin-left: -130px;
+}
+label{
+	color: purple;
+}
